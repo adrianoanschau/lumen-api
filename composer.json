@@ -1,6 +1,6 @@
 {
     "name": "grazziotin/grazziotin-api",
-    "description": "Grazziotin API Framework",
+    "description": "Grazziotin Lumen API Framework",
     "type": "library",
     "require": {
         "php": "^7.3|^8.0",
