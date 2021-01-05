@@ -22,7 +22,8 @@ class GrazziotinApiServiceProvider extends ServiceProvider {
 
     public function register()
     {
-        $this->mergeConfigFrom($this->configPath('helpers.php'), 'helpers');
+        $this->app->make('config')
+            ->set('helpers', $this->configPath('helpers.php'));
     }
 
     protected function configPath($filename)
