@@ -7,11 +7,6 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 
 class GrazziotinApiController extends BaseController
 {
-    protected $repository;
-    protected $resource_class;
-    protected $rules = [];
-    protected $include = [];
-
     protected function send($data = null, $status = Response::HTTP_OK)
     {
         return response()->json($data, $status);
