@@ -3,7 +3,8 @@
     "description": "Grazziotin Lumen API Framework",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.3|^8.0",
         "ext-json": "*",
@@ -33,7 +34,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Grazziotin\\grazziotin-api\\": "src/"
+            "Grazziotin\\GrazziotinApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Grazziotin\\GrazziotinApi\\GrazziotinApiServiceProvider"
+            ]
         }
     }
 }
