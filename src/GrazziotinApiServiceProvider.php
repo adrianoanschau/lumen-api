@@ -22,13 +22,7 @@ class GrazziotinApiServiceProvider extends ServiceProvider {
 
     public function register()
     {
-        $this->app->make('config')
-            ->set('helpers', $this->configPath('helpers.php'));
-    }
-
-    protected function configPath($filename)
-    {
-        return __DIR__ . '/../config/' . $filename;
+        //
     }
 
 }
