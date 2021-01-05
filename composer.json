@@ -2,6 +2,7 @@
     "name": "grazziotin/grazziotin-api",
     "description": "Grazziotin Lumen API Framework",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
         "ext-json": "*",
