@@ -9,13 +9,8 @@
         "php": "^7.3|^8.0",
         "ext-json": "*",
         "awobaz/compoships": "^2.0",
-        "bensampo/laravel-enum": "^3.2",
-        "fruitcake/laravel-cors": "^2.0",
-        "geekcom/validator-docs": "^3.5",
-        "guzzlehttp/guzzle": "^7.2",
         "laravel/legacy-factories": "^1.1",
-        "laravel/lumen-framework": "^8.0",
-        "yajra/laravel-oci8": "^8.2"
+        "laravel/lumen-framework": "^8.0"
     },
     "authors": [
         {
@@ -26,13 +21,6 @@
     "autoload": {
         "psr-4": {
             "Grazziotin\\GrazziotinApi\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Grazziotin\\GrazziotinApi\\GrazziotinApiServiceProvider"
-            ]
         }
     }
 }

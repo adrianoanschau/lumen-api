@@ -1,6 +1,6 @@
 <?php
 
-namespace Grazziotin\GrazziotinApi\Http\Resources\Base;
+namespace Grazziotin\GrazziotinApi\Http\Resources;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Resources\Json\JsonResource;
