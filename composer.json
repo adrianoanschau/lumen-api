@@ -3,7 +3,7 @@
     "description": "Grazziotin Lumen API Framework",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": "^7.3|^8.0",
         "ext-json": "*",
