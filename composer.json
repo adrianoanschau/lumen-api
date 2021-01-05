@@ -1,0 +1,37 @@
+{
+    "name": "grazziotin/grazziotin-api",
+    "description": "Grazziotin API Framework",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*",
+        "awobaz/compoships": "^2.0",
+        "bensampo/laravel-enum": "^3.2",
+        "fruitcake/laravel-cors": "^2.0",
+        "geekcom/validator-docs": "^3.5",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/legacy-factories": "^1.1",
+        "laravel/lumen-framework": "^8.0",
+        "yajra/laravel-oci8": "^8.2"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "flipbox/lumen-generator": "^8.2",
+        "knuckleswtf/scribe": "^2.5",
+        "laravel/tinker": "^2.5",
+        "mockery/mockery": "^1.3.1",
+        "phpunit/phpunit": "^9.3",
+        "thedevsaddam/lumen-route-list": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Adriano Anschau",
+            "email": "adrianoanschau@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Grazziotin\\grazziotin-api\\": "src/"
+        }
+    }
+}
